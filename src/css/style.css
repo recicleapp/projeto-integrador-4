@@ -1,0 +1,70 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Yesteryear&display=swap");
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.topo {
+  background-color: #669187;
+}
+
+.flex {
+  display: flex;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.navegacao {
+}
+
+.navegacao ul {
+  list-style: none;
+  display: flex;
+}
+
+.navegacao li {
+  flex: 3;
+}
+
+.menu {
+  display: flex;
+}
+
+.principal {
+  background-color: brown;
+}
+
+.img-hero-1 {
+  display: flex;
+  width: 100vw;
+  height: 70vh;
+  object-fit: cover;
+}
+
+.rodape {
+  background-color: blanchedalmond;
+}
+
+.logo {
+  font-family: "Yesteryear", cursive;
+  font-size: 45px;
+}
+
+.direitos-autorais {
+  margin-bottom: 0px;
+}
