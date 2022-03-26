@@ -1,0 +1,38 @@
+.services {
+}
+
+.services__container {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.services__title {
+  text-align: center;
+}
+
+.services__title h2 {
+  color: #669187;
+  font-size: 40px;
+}
+
+.services__cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.service-card {
+  width: 550px;
+
+  background-color: #d7d7d7;
+}
+
+.service-card__image {
+}
+
+.service-card__body {
+}
+
+.service-card__title {
+}

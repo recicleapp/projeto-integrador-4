@@ -1,0 +1,120 @@
+/* ------------------------- Barra no todo ----------------------- */
+.barra-topo {
+  height: 36px;
+}
+
+.barra-topo__wrapper {
+  justify-content: flex-end;
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.barra-topo__navegacao {
+  display: flex;
+}
+
+.barra-topo__links {
+  align-self: center;
+  list-style: none;
+}
+
+.barra-topo__item {
+  display: inline-block;
+}
+
+.barra-topo__item a {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 12px;
+  padding-right: 5px;
+}
+
+.barra-topo__item a:hover {
+  color: #04fcac !important;
+}
+
+.barra-topo__item img {
+  width: 15px;
+}
+
+.barra-topo__whatsapp {
+  align-self: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #047c4c;
+  padding: 9px;
+}
+
+.barra-topo__whatsapp a {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 12px;
+  padding-right: 5px;
+}
+
+/* ------------------------- Navegação --------------------------- */
+.navegacao {
+  display: flex;
+  height: 70px;
+  box-shadow: 0px 0px 9px 0px rgba(50, 50, 50, 0.22);
+}
+
+.navegacao__wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.navegacao__logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navegacao__logo img {
+  display: block;
+  width: 100%;
+}
+
+.navegacao__menu {
+  height: 70px;
+  display: flex;
+}
+
+.navegacao__links {
+  align-self: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navegacao__item {
+  display: inline-block;
+}
+
+.navegacao__item a {
+  color: #020202;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 12px;
+  padding-right: 5px;
+}
+
+.navegacao__item a.esta-selecionado {
+  color: #669187 !important;
+}
+
+.navegacao__item a:hover {
+  color: #669187 !important;
+}
+
+.navegacao__icone-entrar {
+  font-size: 12px;
+  font-weight: 900;
+  color: #047c4c;
+}

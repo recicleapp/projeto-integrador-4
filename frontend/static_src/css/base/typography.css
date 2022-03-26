@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;600;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a {
+  font-family: "Archivo", sans-serif;
+}
+
+a {
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 900;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+.navegacao__entrar {
+  font-family: "Archivo", sans-serif;
+}
+
+.footer__sobre p {
+  font-family: "Archivo", sans-serif;
+}

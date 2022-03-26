@@ -1,0 +1,90 @@
+/* ------------------------- Rodapé ----------------------- */
+.footer {
+  padding: 30px 0 30px 0;
+  margin-top: 30px;
+}
+
+.footer__principal {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.footer__sobre {
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+}
+
+.footer__logo {
+  width: 66%;
+}
+
+.footer__sobre p {
+  color: #fff;
+  margin: 20px 30px 0px 0px;
+}
+
+.footer__paginas-importantes {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.footer__paginas-importantes h3 {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.footer__paginas-importantes a {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.footer__item a {
+  text-decoration: none;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.footer__item a:hover {
+  color: #04fcac !important;
+}
+
+.footer__redes-sociais {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__redes-sociais h3 {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.footer__facebook {
+  font-size: 66px;
+  color: #fff;
+}
+
+/* ------------------------- Barra do final da página ----------------------- */
+
+.barra-fim {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 10px 0;
+}
+
+.barra-fim p {
+  font-size: 10px;
+  color: #fff;
+}
+
+.barra-fim__icone {
+  font-size: 10px;
+  color: #ff0000;
+}

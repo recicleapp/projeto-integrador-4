@@ -1,0 +1,48 @@
+.learn {
+}
+
+.learn__container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.learn__title {
+  text-align: center;
+}
+
+.learn__title h2 {
+  color: #669187;
+  font-size: 40px;
+}
+
+.learn__cards {
+  display: flex;
+}
+
+.learn__card {
+  width: 150px;
+}
+
+.learn-card__image {
+}
+
+.learn-card__body {
+}
+
+.learn-card__title {
+}
+
+.learn-card__date {
+}
+
+.learn-card__excerpt {
+}
+
+.learn-card__reading-time {
+}
+
+.learn-card__clock {
+}
+
+.learn-card__time {
+}

@@ -1,0 +1,28 @@
+.testimonies {
+  /* background-color: red; */
+}
+
+.testimonies__container {
+  width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonies__title {
+  text-align: center;
+}
+
+.testimonies__title h2 {
+  color: #669187;
+  font-size: 40px;
+}
+
+.testimonies__photo {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.testimonies__blockquote {
+}

@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/base/reset.css" />
+    <link rel="stylesheet" href="css/base/base.css" />
+    <link rel="stylesheet" href="css/base/colors.css" />
+    <link rel="stylesheet" href="css/base/typography.css" />
+    <link rel="stylesheet" href="css/components/card.css" />
+    <link rel="stylesheet" href="css/layout/header.css" />
+    <link rel="stylesheet" href="css/layout/footer.css" />
+    <link rel="stylesheet" href="css/modules/slider-show.css" />
+    <link rel="stylesheet" href="css/modules/description.css" />
+    <link rel="stylesheet" href="css/modules/services.css" />
+    <link rel="stylesheet" href="css/modules/testimonies.css" />
+    <link rel="stylesheet" href="css/modules/learn.css">
+    <link rel="stylesheet" href="css/pages/home.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    <!-- HEADER inicio -->
+    <header class="header">
+      <!-- barra-topo inicio -->
+      <div class="barra-topo">
+
+        <div class="barra-topo__wrapper">
+          <nav class="barra-topo__navegacao">
+            <ul class="barra-topo__links">
+              <li class="barra-topo__item"><a href="#">Sobre</a></li>
+              <li class="barra-topo__item"><a href="#">Contato</a></li>
+            </ul>
+          </nav>
+          <!-- telefone whatsapp inicio -->
+          <span class="barra-topo__whatsapp">
+            <a href="#">
+              <i class="fa fa-whatsapp" aria-hidden="true"></i>
+              <span>(31) 3344-5566</span>
+            </a>
+          </span>
+          <!-- telefone whatsapp fim -->
+        </div>
+
+      </div>
+      <!-- barra-topo fim -->
+
+      <!-- navegação -->
+      <div class="navegacao">
+        <div class="navegacao__wrapper">
+          <div class="navegacao__logo">
+            <a href="index.html"><img src="images/logo/recicle.png" alt="Recicle" /></a>
+          </div>
+          <nav class="navegacao__menu">
+            <ul class="navegacao__links">
+              <li class="navegacao__item"><a class="esta-selecionado" href="#">HOME</a></li>
+              <li class="navegacao__item"><a href="desacartar.html">DESCARTAR</a></li>
+              <li class="navegacao__item"><a href="doar.html">DOAR</a></li>
+              <li class="navegacao__item"><a href="aprender.html">APRENDER</a></li>
+              <li class="navegacao__item">
+                <a href="#">
+                  <i class="fa fa-sign-in navegacao__icone-entrar" aria-hidden="true"></i>
+                  <span class="navegacao__entrar">ENTRAR</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div><!-- navigation -->
+
+    </header>
+    <!-- HEADER fim -->
+
+    <!-- MAIN inicio -->
+    <main class="main">
+
+      <!-- image slider: start -->
+      <div class="slider">
+        <div class="slides">
+          <!-- radio buttons start -->
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          <!-- radio buttons end -->
+          <!-- slide images start -->
+          <div class="slide first">
+            <img src="/images/slides/image-1.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="/images/slides/image-2.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="/images/slides/image-3.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="/images/slides/image-4.jpg" alt="">
+          </div>
+          <!-- slide images end -->
+          <!-- automatic navigation start -->
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div>
+          <!-- automatic navigation end -->
+          <!-- manual navigation start -->
+          <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+          </div>
+          <!-- manual navigation end -->
+        </div>
+      </div>
+
+      <!-- image slider: enter -->
+
+
+
+      <section class="description">
+        <div class="description__container">
+          <img src="/images/lixo-eletronico.png" alt="lixo eletronico" width="100px" />
+          <h2>Conectamos você a diversos coletores de sua cidade!</h2>
+          <p>
+            Saiba onde fazer o descarte ou doação próximo da sua casa, ou agende
+            uma coleta a domicílio.
+          </p>
+        </div>
+        
+      </section>
+      <!-- Description: end -->
+
+      <section class="services">
+        <div class="services__container">
+          <div class="services__title">
+            <h2>Acesse nossos serviços</h2>
+          </div>
+          <div class="services__cards">
+            <div class="service-card">
+              <img src="images/service-descarte.jpg" alt="descartar" class="service-card__image" />
+              <div class="service-card__body">
+                <h3 class="service-card__title">DESCARTAR</h3>
+              </div>
+            </div>
+            <div class="service-card">
+              <img src="images/service-doacao.png" alt="doar" class="service-card__image" />
+              <div class="service-card__body">
+                <h3 class="service-card__title">DOAR</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Services: end -->
+
+      <section class="testimonies">
+        <div class="testimonies__container">
+          <div class="testimonies__title">
+            <h2>Testemunhos</h2>
+            <p>O que nossos clientes falam de nós</p>
+          </div>
+          <img src="images/foto-joao.png" alt="foto" class="testimonies__photo" />
+          <blockquote class="testimonies__blockquote">
+            Em minhas viajens tive contato com muitos locais poluidos, muitas
+            vezes por baterias e eletronicos, o que mexeu comigo. Por isso, estou
+            feliz de ter encontrado a plataforma Recicle! e agora poder descartar
+            esse material perigoso de forma segura para o meio ambiente.
+          </blockquote>
+          <h4>João</h4>
+          <span>Servidor Publico Municipal</span>
+        </section>
+
+
+
+      <!-- Testimonies: end -->
+
+      <section class="learn">
+        <div class="learn__container">
+          <div class="learn__title">
+            <h2>Conteúdos mais recentes</h2>
+            <p>Materiais educativos, noticias e curiosidades</p>
+          </div>
+
+
+        <div class="learn__cards">
+          <div class="learn-card">
+            <img src="images/mobile-3734545_640.jpg" alt="imagem" class="learn-card__image" />
+            <div class="learn-card__body">
+              <span class="learn-card__date">21 de março de 2022</span>
+              <h2 class="learn-card__title">O que é o lixo eletrônico</h2>
+              <p class="learn-card__excerpt">
+                O Lixo Eletrônico possui muitos nomes, como e-lixo, resíduos de
+                equipamento ...
+              </p>
+              <div class="learn-card__reading-time">
+                <img src="#" alt="relogio" class="learn-card__clock" />
+                <h6 class="learn-card__time">7 minutos de leitura</h6>
+              </div>
+            </div>
+          </div>
+          <div class="learn-card">
+            <img src="images/computers-814257_640.jpg" alt="imagem" class="learn-card__image" />
+            <div class="learn-card__body">
+              <span class="learn-card__date">24 de março de 2022</span>
+              <h2 class="learn-card__title">
+                5 perigos dos lixos eletrônicos e como você pode evitá-los
+              </h2>
+              <p class="learn-card__excerpt">
+                Lixo gerado a partir de aparelhos eletrônicos pode impactar
+                ecossistema ...
+              </p>
+              <div class="learn-card__reading-time">
+                <img src="#" alt="relogio" class="learn-card__clock" />
+                <h6 class="learn-card__time">5 minutos de leitura</h6>
+              </div>
+            </div>
+          </div>
+          <div class="learn-card">
+            <img src="images/campus.png" alt="imagem" class="learn-card__image" />
+            <div class="learn-card__body">
+              <span class="learn-card__date">25 de março de 2022</span>
+              <h2 class="learn-card__title">
+                Descarte de lixo eletrônico vale ingresso para a Campus Party
+              </h2>
+              <p class="learn-card__excerpt">
+                Projeto além de disponibilizar os ingressos, também incentiva o
+                consumo sustentável ...
+              </p>
+              <div class="learn-card__reading-time">
+                <img src="#" alt="relogio" class="learn-card__clock" />
+                <h6 class="learn-card__time">5 minutos de leitura</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        </div>
+
+      </section>
+      <!-- Learn: end -->
+    </main>
+    <!-- MAIN fim  -->
+
+    <!-- FOOTER inicio -->
+    <footer class="footer">
+      <div class="footer__principal">
+        <div class="footer__sobre">
+          <a href="index.html">
+            <img src="images/logo/recicle-footer.png" alt="Recicle" class="footer__logo" />
+          </a>
+          <p>
+            O “Recicle” surgiu em 2020, a partir do desejo de seus
+            idealizadores em contribuir com o meio ambiente.
+          </p>
+        </div>
+        <div class="footer__paginas-importantes">
+          <h3>PÁGINAS IMPORTANTES</h3>
+          <nav>
+            <ul>
+              <li class="footer__item"><a href="index.html">Home</a></li>
+              <li class="footer__item"><a href="#">Termos de Uso</a></li>
+              <li class="footer__item"><a href="#">Politica de Privacidade</a></li>
+              <li class="footer__item"><a href="#">LGPD</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__redes-sociais">
+          <h3>SIGA-NOS NAS REDES SOCIAIS</h3>
+          <a class="footer__facebook" href="#">
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER fim  -->
+
+    <div class="barra-fim">
+      <p>
+        Carinhosamente <i class="fa fa-heart barra-fim__icone aria-hidden="true"></i> feito por Recicle! - © 2022 Todos os direitos
+        reservados.
+      </p>
+    </div>
+
+  <script src="js/slide.js"></script>
+  </body>
+
+</html>
